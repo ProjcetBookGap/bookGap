@@ -43,7 +43,7 @@
 	<bean id="userService" 
 		class="com.bookGap.service.UserAuthenticationService">
 		<constructor-arg index="0" ref="sqlSession" />
-	</bean>
+	</bean> 
 	
 	<!-- 비밀번호 비교할 암호화 객체 선언 -->
 	<bean id="passwordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" />

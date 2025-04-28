@@ -1,5 +1,5 @@
 package com.bookGap.vo;
-
+ 
 import java.util.Collection;
 
 import org.springframework.security.core.GrantedAuthority;
