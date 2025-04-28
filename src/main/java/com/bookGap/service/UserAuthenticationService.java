@@ -13,7 +13,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
 import com.bookGap.vo.UserVO;
 
-public class UserAuthenticationService implements UserDetailsService {
+public class UserAuthenticationService implements UserDetailsService { 
 	
 	//컴포넌트가 아니기 때문에 @Autowired 불가능  
 	SqlSession sqlSession;
