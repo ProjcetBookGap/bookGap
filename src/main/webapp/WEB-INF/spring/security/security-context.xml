@@ -45,7 +45,7 @@
 		<constructor-arg index="0" ref="sqlSession" />
 	</bean> 
 	
-	<!-- 비밀번호 비교할 암호화 객체 선언 -->
+	<!-- 비밀번호 비교할 암호화 객체 선언 --> 
 	<bean id="passwordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" />
 	
 	<!-- 로그인버튼 클릭시 security에서 어떤 userAuthenticationService를 

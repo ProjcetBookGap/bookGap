@@ -11,7 +11,7 @@ import org.springframework.security.web.access.AccessDeniedHandler;
 
 public class UserDeniedHandler implements AccessDeniedHandler {
 
-	@Override
+	@Override 
 	public void handle(HttpServletRequest request, HttpServletResponse response,
 			AccessDeniedException accessDeniedException) throws IOException, ServletException {
 		//authority 값이 일치하지 않는 경로(권한이 없는 경로) 접근시 호출

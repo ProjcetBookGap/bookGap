@@ -3,7 +3,7 @@
 			"http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
 <mapper namespace="com.bookGap.mapper.userMapper">
 	<select id="selectOneById" parameterType="String" resultType="java.util.Map">
-		SELECT USER_ID 
+		SELECT USER_ID  
 			  ,USER_PW
 			  ,USER_ENABLED 
 			  ,USER_AUTHORITY 

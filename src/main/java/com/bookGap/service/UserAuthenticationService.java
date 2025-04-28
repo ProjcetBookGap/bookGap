@@ -15,7 +15,7 @@ import com.bookGap.vo.UserVO;
 
 public class UserAuthenticationService implements UserDetailsService {
 	
-	//컴포넌트가 아니기 때문에 @Autowired 불가능 
+	//컴포넌트가 아니기 때문에 @Autowired 불가능  
 	SqlSession sqlSession;
 		
 	public UserAuthenticationService(SqlSession sqlSession) {
